@@ -1,0 +1,19 @@
+app: This folder contains  models, controllers, service providers, and any other custom classes specific to the application.
+
+bootstrap: This folder contains the code that is executed when the application is first bootstrapped, including the configuration and autoload files. It also contains a cache folder for optimized classes and a cache folder for the framework.
+
+config: This folder contains configuration files for the application, including the database connection settings, mail settings, and other options. Laravel provides a default configuration, but you can also add your own configuration files here.
+
+database: This folder contains database-related files, including migrations, seeds, and factories. Migrations are used to modify the database schema and seeds are used to populate the database with initial data.
+
+public: This folder contains the front-end assets for the application, including CSS, JavaScript, and image files. This is the only folder that should be publicly accessible and serves as the document root for the web server.
+
+resources: This folder contains the application's resource files, including views, language files, and other assets that are compiled and optimized for use in the application. This includes a views folder for templates, a lang folder for language files, and an assets folder for CSS, JavaScript, and other front-end assets.
+
+routes: This folder contains the application's route files, which define how incoming requests should be handled by the application. This includes a web.php file for handling web requests and an api.php file for handling API requests.
+
+storage: This folder contains application-generated files that should not be publicly accessible, including log files, cached views, and session data. This includes a logs folder for log files, a framework folder for cached data, and an app folder for application-generated data.
+
+tests: This folder contains automated tests for the application. This includes a Feature folder for end-to-end tests and a Unit folder for unit tests.
+
+vendor: This folder contains the dependencies that are installed via Composer, including Laravel itself and any third-party packages used in the application. This folder should not be modified directly.
